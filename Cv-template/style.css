@@ -42,6 +42,57 @@ li {
 .bar {
     width: 100%;
     background-color: brown;
-    height: 24px;
-    border-radius: 4px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.bar-language {
+    width: 100%;
+    background-color: brown;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.skill {
+    color: darkgray;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 5%;
+    padding: 10px 0px 10px 0px;
+}
+
+.percentage {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+
+}
+
+.fullBar-skill {
+    width: 96%;
+    background-color: lightgray;
+    height: 20px;
+    border-radius: 10px;
+    margin: 4%;
+}
+
+.fullBar-language {
+    width: 96%;
+    background-color: lightgray;
+    height: 25px;
+    border-radius: 10px;
+    margin: 4%;
+}
+p {
+    margin: 1%;
+    padding: 1%;
+}
+.language{
+    color: darkgray;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 4%;
+    padding: 10px 0px 10px 0px;
 }

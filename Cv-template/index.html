@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div>
@@ -14,53 +18,51 @@
           <img src="./avatar2.png" alt="" />
           <h2>AbdulQadir</h2>
         </div>
-        <ul>
-          <li>Web Developer</li>
-          <li>Karachi , pakistan</li>
-          <li>a.qadir67@outlook.com</li>
-          <li>03491826315</li>
-        </ul>
-        <h2>Skills</h2>
-        <ul>
-          <li>
-            <h3>skill 1</h3>
-            <div class="bar"></div>
-            <p>90%</p>
-          </li>
-
-          <li>
-            <h3>skill 2</h3>
-            <div class="bar"></div>
-            <p>80%</p>
-          </li>
-
-          <li>
-            <h3>skill 3</h3>
-            <div class="bar"></div>
-            <p>70%</p>
-          </li>
-
-          <li>
-            <h3>skill 4</h3>
-            <div class="bar"></div>
-            <p>45%</p>
-          </li>
-        </ul>
+        <p><i class="fa fa-briefcase"></i> Web Developer</p>
+        <p><i></i> Karachi, pakistan</p>
+        <p><i></i> a.qadir67@outlook.com</p>
+        <p><i></i> 03491826315</p>
+        <hr>
+        <h2 class="skills">Skills</h2>
+        <h3 class="skill">skill 1</h3>
+        <div class="fullBar-skill">
+          <div class="bar" style="width: 90%">
+            <p class="percentage">90%</p>
+          </div>
+        </div>
+        <h3 class="skill">skill 2</h3>
+        <div class="fullBar-skill">
+          <div class="bar" style="width: 80%">
+            <p class="percentage">80%</p>
+          </div>
+        </div>
+        <h3 class="skill">skill 3</h3>
+        <div class="fullBar-skill">
+          <div class="bar" style="width: 70%">
+            <p class="percentage">70%</p>
+          </div>
+        </div>
+        <h3 class="skill">skill 4</h3>
+        <div class="fullBar-skill">
+          <div class="bar" style="width: 45%">
+            <p class="percentage">45%</p>
+          </div>
+        </div>
         <h2>languages</h2>
-
         <li>
-          <h3>english</h3>
-          <div class="bar"></div>
+          <h3 class="language">english</h3>
+
+          <div class="fullBar-language"><div class="bar-language" style="width: 75%"></div></div>
         </li>
 
         <li>
-          <h3>urdu</h3>
-          <div class="bar"></div>
+          <h3 class="language">urdu</h3>
+          <div class="fullBar-language"><div class="bar-language" style="width: 100%"></div></div>
         </li>
 
         <li>
-          <h3>CHINESE</h3>
-          <div class="bar"></div>
+          <h3 class="language">CHINESE</h3>
+          <div class="fullBar-language"><div class="bar-language" style="width: 50%"></div></div>
         </li>
       </aside>
     </div>
@@ -77,6 +79,7 @@
           aliquam porro.
         </p>
       </div>
+      <hr />
       <div>
         <h1>web developer / something.com</h1>
         <h2>mar 2012 - dec 2014</h2>
@@ -88,6 +91,7 @@
           reprehenderit inventore?
         </p>
       </div>
+      <hr />
       <div>
         <h1>graphic designer</h1>
         <h2>jan 2010 - mar 2012</h2>
@@ -105,11 +109,16 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, quo.
         </p>
       </div>
+      <hr />
       <div>
         <h1>dehli govt college</h1>
         <h2>2015-2017</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, qui.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+          qui.
+        </p>
       </div>
+      <hr />
       <div>
         <h1>white house grammer school</h1>
         <h2>2013-2015</h2>
@@ -119,11 +128,13 @@
       </div>
     </section>
     <footer>
-        <div class="footer">
+      <div class="footer">
         <h2>find me on social media</h2>
-        <ul>logosss</ul>
+        <ul>
+          logosss
+        </ul>
         <h3>powerd by xyz</h3>
-    </div>
+      </div>
     </footer>
   </body>
 </html>
