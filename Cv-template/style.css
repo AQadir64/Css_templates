@@ -6,6 +6,13 @@ section {
     color:black;
     padding: 1%
 }
+section h1,h2,h3,p{
+    margin: 2%;
+    text-align: justify
+}
+section p{
+    font-
+}
 aside{
     float: left;
     width: 26%;
@@ -26,11 +33,14 @@ body {
 
 footer{
     clear: both;
+    margin-top: 3%;
     text-align: center;
     background-color: brown;
-    margin: 1%;
     padding: 1%;
-
+    color: white
+}
+footer i {
+    padding: 5px;
 }
 ul li {
     list-style: none;
@@ -46,6 +56,12 @@ li {
     border-radius: 15px;
 }
 
+i {
+    color: brown;
+}
+h1 ,h2 ,h3 {
+    color: gray;
+}
 .bar-language {
     width: 100%;
     background-color: brown;
@@ -95,4 +111,70 @@ p {
     font-size: 14px;
     margin: 4%;
     padding: 10px 0px 10px 0px;
+}
+hr {
+    color: lightgray
+}
+
+.info {
+    color: darkgray;
+ font-size:15px;
+}
+i {
+    margin-right: 15px;
+}
+span{
+    background-color: brown;
+    color: white;
+    padding: 3px;
+    margin: 1%;
+    border-radius: 5px
+}
+
+.education{
+    padding: 0 5px 0 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.educations {
+    font-size: 32px;
+    margin-bottom: 25px;
+    padding: 0 5px 0 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.education p,h1,h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.education h1 {
+    font-size: 20px
+}
+.education h2 {
+    color: brown;
+    font-size: 16px
+}
+
+.work{
+    padding: 0 5px 0 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.works {
+    font-size: 32px;
+    margin-bottom: 25px;
+    padding: 0 5px 0 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.work p,h1,h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.work h1 {
+    font-size: 20px
+}
+.work h2 {
+    color: brown;
+    font-size: 16px
 }
