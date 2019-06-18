@@ -1,0 +1,35 @@
+header{
+    max-width: 1500px;
+}
+body{
+    background-color:white;
+    color:black;
+}
+.banner {
+    display: inline;
+    max-width: 100%;
+    max-height: 500px;
+    height: auto;
+}
+.banner-text {
+    color: black;
+}
+.navbar{
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:lightgray;
+    position: absolute;
+}
+.navbar a{
+    background-color:lightgray;
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+   text-transform: capitalize;
+}
+.navbar a:hover{
+    background-color: darkgrey;
+}
