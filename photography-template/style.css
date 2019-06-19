@@ -12,21 +12,37 @@ body{
 }
 .banner {
     display: inline;
-    max-width: 100%;
-    max-height: 600px;
+    max-width: 98%;
+    max-height: 500px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 1%;
     height: auto;
 }
 .banner-text {
-    color: black;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+    color:black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.banner-text p {
+    font-weight: bold;
 }
 .navbar{
     display: inline-block;
     text-align: center;
-    padding: 2px;
+    padding: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color:lightgray;
+    border: 3px solid darkgray;
     position: absolute;
+    left: 48%;
+    transform: translate(-40%,-50%);
 }
 .navbar a{
     background-color:lightgray;
@@ -37,6 +53,7 @@ body{
 }
 .navbar a:hover{
     background-color: darkgrey;
+    padding: 15px;
 }
 .portfolio-img{
     background-color: white;
@@ -144,4 +161,17 @@ form::after{
     content: "";
     display: block;
     clear: both;
+}
+
+footer{
+    background-color: lightgray;
+    height: 100px;
+    display: block;
+    margin: 1%;
+    padding: 1%;
+    text-transform: capitalize;
+    text-align: center;
+}
+footer p {
+    margin-top: 2%
 }
